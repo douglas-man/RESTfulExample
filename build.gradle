@@ -22,6 +22,8 @@ dependencies {
     // http://mvnrepository.com/artifact/org.glassfish.jersey/jersey-bom
     compile group: 'org.glassfish.jersey', name: 'jersey-bom', version: '2.22.2', ext: 'pom'
 
+    compile 'commons-logging:commons-logging:1.1.1'
+    compile 'log4j:log4j:1.2.16'
     testCompile "junit:junit:4+"
 }
 

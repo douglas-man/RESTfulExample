@@ -16,10 +16,11 @@ public class HelloWorldService {
 	@GET
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {
-		log.debug("using log4j xml config");
-		log.info("using log4j xml config");
-		log.warn("using log4j xml config");
-		log.error("using log4j xml config");
+
+		log.debug("getMsg() is executed!");
+		log.info("getMsg() is executed!");
+		log.warn("getMsg() is executed!");
+		log.error("getMsg() is executed!");
 
 		String output = "Jersey say : " + msg;
  

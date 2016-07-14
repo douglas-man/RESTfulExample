@@ -32,7 +32,7 @@ public class HelloWorldService {
 
 //		LOG.log(new LogRecord(PlatformLogger.Level.INFO, "Jersey say"));
 
-		String output = "Jersey say : " + msg;
+		String output = "Jersey say : " +  msg;
  
 		return Response.status(200).entity(output).build();
  

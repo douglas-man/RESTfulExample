@@ -3,7 +3,8 @@
  1. git clone https://github.com/douglas-man/RESTfulExample.git
  2. mvn jetty:run
  3. http://localhost:8080/rest/webapi/hello/accenture  ..(see plugin configuration...)
- 4.
+ 4. for gradle jettyRun
+ 5. http://localhost:8080/RESTfulExample/webapi/hello/accenture
 
 For using jdb, 
 

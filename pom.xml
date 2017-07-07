@@ -88,6 +88,7 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.3.8.v20160314</version>
                 <configuration>
+                    <webApp><contextPath>/rest</contextPath></webApp>
                     <jvmArgs>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=1044</jvmArgs>
                     <stopKey>CTRL+C</stopKey>
                     <stopPort>8999</stopPort>

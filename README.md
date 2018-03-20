@@ -1,3 +1,11 @@
+
+mvn org.eclipse.jetty:jetty-maven-plugin:run
+
+http://localhost:8080/webapi/myresource/person
+
+
+
+
  RESTfulExample
  
  1. git clone https://github.com/douglas-man/RESTfulExample.git

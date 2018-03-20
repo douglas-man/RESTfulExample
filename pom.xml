@@ -11,7 +11,7 @@
     <url>http://maven.apache.org</url>
     <properties>
         <jdk.version>1.8</jdk.version>
-        <jersey.version>2.22.2</jersey.version>
+        <jersey.version>2.26</jersey.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -52,9 +52,7 @@
 
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
-            <artifactId>jersey-container-servlet-core</artifactId>
-            <!-- use the following artifactId if you don't need servlet 2.x compatibility -->
-            <!-- artifactId>jersey-container-servlet</artifactId -->
+            <artifactId>jersey-container-servlet</artifactId>
         </dependency>
         <!-- uncomment this to get JSON support
         <dependency>
@@ -83,7 +81,7 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+            <!--plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.3.8.v20160314</version>
@@ -112,7 +110,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

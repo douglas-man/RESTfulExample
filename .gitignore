@@ -3,5 +3,4 @@ build/
 .idea/
 .gradle/
 application.log
-build
-target
+/bin/

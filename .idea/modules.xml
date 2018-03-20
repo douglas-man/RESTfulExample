@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RESTfulExample.iml" filepath="$PROJECT_DIR$/.idea/modules/RESTfulExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RESTfulExample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RESTfulExample_main.iml" group="RESTfulExample" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RESTfulExample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RESTfulExample_test.iml" group="RESTfulExample" />
+      <module fileurl="file://$PROJECT_DIR$/RESTfulExample.iml" filepath="$PROJECT_DIR$/RESTfulExample.iml" />
     </modules>
   </component>
 </project>
